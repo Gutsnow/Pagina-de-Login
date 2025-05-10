@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Login</title>
+</head>
+<body>
+    
+    <!-- CARD 1 -->
+<div class="wrapper">
+    <div class="card-switch">
+        <label class="switch">
+           <input type="checkbox" class="toggle">
+           <span class="slider"></span>
+           <span class="card-side"></span>
+           <div class="flip-card__inner">
+              <div class="flip-card__front">
+                 <div class="title">Log in</div>
+
+                 <form id="form1" class="flip-card__form" method="post">
+                    <input id="email" class="flip-card__input" name="email" placeholder="Email" type="email">
+                    <input id="senha" class="flip-card__input" name="password" placeholder="Password" type="password">
+                    <button id="enviar" class="flip-card__btn" type="submit">Entrar</button>
+                 </form>
+
+              </div>
+
+              <!-- CARD 2 -->
+              <div class="flip-card__back">
+                 <div class="title">Sign up</div>
+
+                 <form id="form2" class="flip-card__form" method="post">
+                    <input id="emailn" class="flip-card__input" name="email" placeholder="Email" type="email">
+                    <input id="psn" class="flip-card__input ps" name="password" placeholder="Password" type="password">
+                    <input id="psn2" class="flip-card__input ps" name="password" placeholder="Confirm  Password" type="password">
+                    <button class="flip-card__btn" type="submit" id="enviar2">Enviar</button>
+                 </form>
+
+              </div>
+           </div>
+        </label>
+    </div>   
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
