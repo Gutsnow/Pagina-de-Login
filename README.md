@@ -39,5 +39,5 @@ projeto-fullstack/
 ---
 
 ### 🛠️ Autor
-Desenvolvido por Seu Nome
+Desenvolvido por Gustavo Neves
 Este projeto tem como objetivo demonstrar meus conhecimentos como desenvolvedor full-stack.
